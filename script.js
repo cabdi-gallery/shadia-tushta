@@ -1,13 +1,16 @@
 /* ===== EDIT HERE ===== */
 const TOTAL = 19;                 // photo1.jpeg ... photo19.jpeg
 const EXT = "jpeg";
-const PER_PAGE = 6;               // photos per page
+const PER_PAGE = 50;              // big number = all photos on one page (no pages)
 const CAPTIONS = {                // text shown when a photo is opened
   1: "Quruxdaydu waa tushta,",
 };
 const CATS = ["Portraits", "Nature", "Travel", "Fashion", "Friends"];
-const CATEGORY = {                // choose a group for a photo, e.g. 3: "Travel"
-  // 3: "Travel",
+const CATEGORY = {                // which group each photo belongs to (edit freely)
+  1: "Portraits",  2: "Nature",   3: "Fashion",  4: "Friends",  5: "Travel",
+  6: "Portraits",  7: "Nature",   8: "Fashion",  9: "Travel",  10: "Friends",
+  11: "Portraits", 12: "Nature", 13: "Fashion", 14: "Travel", 15: "Friends",
+  16: "Portraits", 17: "Nature", 18: "Fashion", 19: "Travel",
 };
 /* ===================== */
 
