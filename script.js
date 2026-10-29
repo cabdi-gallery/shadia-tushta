@@ -1,5 +1,5 @@
 /* ===== EDIT HERE ===== */
-const TOTAL = 19;                 // photo1.jpeg ... photo19.jpeg
+const TOTAL = 20;                 // photo1.jpeg ... photo19.jpeg
 const EXT = "jpeg";
 const PER_PAGE = 50;              // big number = all photos on one page (no pages)
 const CAPTIONS = {                // text shown when a photo is opened
