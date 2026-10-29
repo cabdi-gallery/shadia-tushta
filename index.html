@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="so">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>Beerta Sawirada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="frame">
 
+  <nav class="nav">
+    <a class="logo" href="#home">
+      <svg viewBox="0 0 24 24" class="cam"><rect x="2" y="6" width="20" height="14" rx="4"/><circle cx="12" cy="13" r="4" fill="#ff6fa5"/><path d="M8 6l1.5-3h5L16 6"/></svg>
+      Beerta Sawirada
+    </a>
+    <div class="links">
+      <a href="#home" class="active">Home</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h1><span class="w">Beerta</span><span class="p">Sawirada</span></h1>
+      <p>Xusuus kasta waa sheeko,<br>Sawir kastana waa daqiiqo qurux badan.</p>
+      <a class="btn" href="#gallery">Eeg Sawirrada &rarr;</a>
+    </div>
+
+    <figure class="hero-visual">
+      <div class="blob"></div>
+      <svg class="crown" viewBox="0 0 64 40"><path d="M4 34L10 8l14 14 8-18 8 18 14-14 6 26z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/></svg>
+      <span class="heart h1">&#9825;</span><span class="heart h2">&#9825;</span>
+      <img class="hero-photo" src="photo1.jpeg" alt="Quruxdaydu waa tushta">
+      <figcaption>Quruxdaydu waa tushta,</figcaption>
+    </figure>
+  </section>
+
+  <section class="panel" id="gallery">
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="grid"></div>
+    <div class="pager" id="pager"></div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About</h2>
+    <p>Halkan waxaa lagu ururiyey xusuusaha ugu qurxoonaa.</p>
+  </section>
+
+  <footer id="contact">
+    <a class="logo" href="#home">Beerta Sawirada</a>
+    <span class="tag">Sawirro &middot; Xusuus &middot; Nolol</span>
+    <span class="social">
+      <svg viewBox="0 0 24 24"><path d="M14 3v11a3 3 0 11-3-3M14 3c0 3 2 5 5 5"/></svg>
+      <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.5"/></svg>
+      <svg viewBox="0 0 24 24"><path d="M10 14a4 4 0 005.7 0l3-3a4 4 0 00-5.7-5.7l-1 1M14 10a4 4 0 00-5.7 0l-3 3a4 4 0 005.7 5.7l1-1"/></svg>
+    </span>
+  </footer>
+</div>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button id="close" aria-label="Close">&times;</button>
+  <button id="prev" aria-label="Previous">&lsaquo;</button>
+  <figure><img id="lb-img" src="" alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button id="next" aria-label="Next">&rsaquo;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
